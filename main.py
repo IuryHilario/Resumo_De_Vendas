@@ -21,10 +21,10 @@ def Numero_Mes(Mes):
 
 
 Começar = str(
-    input('Digite a abreviação do mês que deseja começar (Jan, Fev, Mar, Abr, Mai, Jun, Jul, Ago, Set, Out, Nov, Dez): '))
+    input('Digite o número do mês que deseja começar (Jan, Fev, Mar, Abr, Mai, Jun, Jul, Ago, Set, Out, Nov, Dez): '))
 while Começar not in Mes_Abreviado:
     Começar = str(input(
-        'Erro Na Digitação. Digite a abreviação do mês que deseja começar (Jan, Fev, Mar, Abr, Mai, Jun, Jul, Ago, Set, Out, Nov, Dez): '))
+        'Erro Na Digitação. Digite o número do mês que deseja começar (Jan, Fev, Mar, Abr, Mai, Jun, Jul, Ago, Set, Out, Nov, Dez): '))
 
 Mes_Dos_Valores = Maior_Valor = Menor_Valor = 0
 Mes_Copia = Copia_Mes_Contagem = Numero_Mes(Começar)
